@@ -20,14 +20,26 @@ body{
     border: 2px solid rgb(58, 101, 58);
     padding: 20px;
 }
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
 input{
     outline: none;
     border-radius: 9999px;
     height: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+  
     border: 2ps solid cyan;
 }
 .box{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap:30px;
 }
