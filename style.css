@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:snow;
+    overflow-x: hidden;
+}
+.container{
+    position: absolute;
+   
+    inset: 10px;
+    border: 2px solid rgb(58, 101, 58);
+    padding: 20px;
+}
+input{
+    outline: none;
+    border-radius: 9999px;
+    height: 40px;
+    border: 2ps solid cyan;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.professor{
+    display: flex;
+    flex-direction: column;
+}
+.professor img{
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+}
